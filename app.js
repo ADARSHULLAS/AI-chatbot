@@ -23,7 +23,7 @@ async function getBotResponse(userMessage) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer YOUR_OPENAI_API_KEY`,
+            'Authorization': `sk-t503wtatqdmpOGb1qIA-Sp0H5zUn8NAfyg2e_DijsVT3BlbkFJ6bN_pVwOgkttzbPxdwyDCe3C38SsJ9vF93pi9NxJ0A`,
         },
         body: JSON.stringify({
             model: 'gpt-4',
